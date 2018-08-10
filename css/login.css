@@ -1,0 +1,51 @@
+body{
+  	background: linear-gradient(to top right, #1157ff, #fff);
+    width: auto;
+    height: 662px;
+}
+.bg-box{
+  /* border: 1px solid transparent; */
+  border-radius: 2px;
+  padding: 30px;
+  background: linear-gradient(to right bottom,lightblue, #fff);
+
+  color: #fff;
+  height: 500px;
+  margin-top: 80px;
+  box-shadow: 1px 1px 5px #aaa;
+}
+.bg-box h3{
+  margin-top: 0px;
+}
+.bg-box #enviar{
+  margin-top: 30px;
+  width: 100%;
+  background-color: #1199cc;
+  border: 0px;
+  color: #fff;
+}
+.bg-box .cadastrar{
+  margin-top: 30px;
+}
+.bg-box #enviar:hover{
+  background-color: #0088bb;
+}
+.bg-box .cancelar a{
+  background-color: #FF5733;
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+}
+.bg-box .cancelar a:hover{
+  background-color: #dd5733;
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+}
+.jumbotrom{
+  height: 300px;
+  margin-top: 180px;
+  background-color: transparent;
+  color: #666;
+  text-align: center;
+}

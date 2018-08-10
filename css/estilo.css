@@ -1,0 +1,246 @@
+@media only screen and (min-width: 1024px) and (max-width: 2120px) {
+*{
+	font-size: 12px;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.bg-body{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0, 0.8);
+	z-index: 999;
+	display: none;
+}
+.carregando{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0, 0.8);
+	z-index: 999999;
+	display: none;
+	
+}
+.carregando h2{
+	color: #fff;
+	text-align: center;
+	height: 40px;
+	top: 50%;
+	position: relative;
+	margin-top: -20px;
+}
+.icon-bar{
+	background-color: #fff;
+}
+.header{
+	background: #fff;
+	position: relative;
+	z-index: -9; 
+	height: 50px;
+	/* box-shadow: 0px 1px 5px #777; */
+}
+.header a{
+	color: #397ab7;
+}
+.header .sair{
+	margin-top: 15px;
+	float: right;
+	margin-right: 100px;
+}
+.bg-menu{
+	z-index: 1;
+	margin-top: 0px;
+	position: fixed;
+	background-color: #f9f9f9 ;
+	height: 100%;
+	box-shadow: 1px 0px 14px #333;
+	/* margin-left: -30px; */
+}
+.menu{
+	margin-top: 40px;
+	border-radius: 5px;
+	height: 663px;
+}
+.menu ul li a{
+	color: #3a3a3a;
+	border-radius: 2px;
+	/*text-shadow: 0px 1px 1px black;*/
+	/* border-bottom: 1px solid #ccc; */
+}
+.menu ul li a:hover{
+	color: #000;
+	/* background-color: transparent; */
+	/* text-shadow: 0px 1px 1px black; */
+}
+.dropdown li {
+	list-style: none;
+	padding: 7px;
+	margin-top: 7px;
+	margin-left: -10px;
+}
+.dropdown li a{
+	padding: 10px ;
+	border-radius: 5px;
+	text-decoration: none;
+	/* background-color: #fff; */
+}
+.dropdown li a:hover{
+	background-color: #eee;
+}
+.direitos{
+	z-index: 998;
+	position: fixed;
+	bottom: 0px;
+	margin-left: -15px;
+	/* margin-top: 600px; */
+}
+.direitos p{
+	color: #05a;
+	text-align: center;
+	font-size: 13px;
+}
+.bg-principal{
+	z-index: 9999999;
+	position: absolute;
+	display: none;
+	/*top: 50%;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 900px;
+	height: 700px;
+	background-color: #fff;
+	box-shadow: 0px 3px 17px black;
+	border-radius: 5px;
+	left: 50%;
+	margin-left: -450px;
+	padding: 0px;
+	padding-bottom: 20px;
+}
+.bg-principal span{
+	font-size: 12px;
+}
+.bg-principal .header-relatorio{
+	padding: 10px;
+    background-color: #397ab7;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	width: 100%;
+	z-index: 999999;
+	/* position: fixed; */
+}
+.bg-principal h4{
+	text-align: center
+}
+.bg-principal .info-zoneamento, .dados-projeto{
+	padding: 5px;
+	/* border: 1px solid #d8d8d8;  */
+}
+.info-zoneamento h4, .dados-projeto h4{
+	background-color: #d8d8d8;
+	padding: 10px;
+	margin-top: 0px;
+	color: #333;
+	/* text-transform: uppercase; */
+	text-align: left;
+	font-size: 14px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.dados-projeto{
+	padding-top: 20px;
+}
+.dados-projeto div{
+	margin-top: 20px;
+}
+hr{
+	margin-top: 0px;
+}
+
+.bg-principal input, .bg-principal select{
+	height: 25px;
+	padding: 1px;
+	border: 0.5px solid #a9a9a9;
+	border-radius: 2px;
+	margin: 5px 0 5px 0;
+}
+
+.dropdown{
+	display: none;
+}
+.dropdown li {
+	list-style: none;
+}
+.dropdown li a{
+	text-decoration: none;
+}
+#cadastrar-projeto{
+	border-radius: 2px;
+}
+/* Relatório */
+#relatorio{
+	display: none;
+	z-index: 999999999;
+	position: absolute;
+	width: 900px;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0px 3px 14px black;
+	border-radius: 5px;
+	left: 50%;
+	margin-left: -450px;
+	padding: 0px;
+	border: 0px;
+	
+}
+#relatorio .header-relatorio{
+    padding: 10px;
+    background-color: #397ab7;
+	border: 0px;
+	color: #fff;
+	/* position: fixed; */
+	width: 100%;
+	z-index: 999999;
+	border: 1px solid #397ab7;
+}
+.fechar{	
+    
+	margin-top:-90px;
+	padding: 0px 5px;
+	font-weight: bold;
+    background-color: transparent;
+    
+    margin-left: 97%;
+}
+#relatorio .tabela-cadastro, th, td{
+	margin-top: 130px;
+	font-size: 12px;
+	padding: 0;
+}
+#relatorio .footer{
+    background-color: #397ab7;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    bottom: 0px;
+    padding: 10px;
+}
+.modal-confirmacao{
+    position: fixed;
+    width: 500px;
+    height: 80px;
+    background-color: rgba(20, 153, 60, 0.9);
+    box-shadow: 0px 1px 5px black;
+    border-left: 10px solid green;
+    left: 50%;
+    margin-top: 10px;
+	margin-left: -250px;
+	z-index: 999999999999;
+	display: none;
+}
+.modal-confirmacao h3{
+    text-align: center;
+    color: #fff;
+}
+}
